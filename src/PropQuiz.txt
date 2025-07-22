@@ -1,0 +1,25 @@
+Question 1:
+What do props help us accomplish in a React component?
+Answer: Props are the ones that help us to pass data from one component to another.
+
+Question 2: How do you pass props to a component?
+Answer: Props are passed to a component by adding attributes to the component tag, like so: `<ComponentName propName={value} />`.
+
+Question 3:
+Can I pass a custom prop (e.g. blahblahblah={true}) to a native DOM element? (e.g.
+) Why or why not?
+
+Answer: No, so in this case, the prop will be ignored in the jsx. So React will not render it in the DOM. Custom props should only be used with React components, not native DOM elements.
+
+
+Question 4: 
+How do I receive props in a component? function Navbar() { return (
+
+... ) }
+Answer: You can receive props in a component by defining the component function to accept a `props` parameter, like so:
+prop.name = "Jasmine"
+
+
+What data type is props when the component receives it?
+Answer: Props are received as an object in the component, so you can access individual props using dot notation or destructuring.
+
