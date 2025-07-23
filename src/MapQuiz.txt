@@ -1,0 +1,9 @@
+Question 1: 
+What does the map() method do?
+Answer: Well the map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+Question 2:
+How do you use the map() method in React?
+Answer: In React, you can use the map() method to iterate over an array and return
+
+Question 3:
