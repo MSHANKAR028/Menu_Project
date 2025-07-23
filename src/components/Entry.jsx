@@ -4,8 +4,8 @@ export default function Entry(props){
         <article className="MenuPage">
             <div className= "Photo1_container">
                 <img className="Photo1" 
-                src={props.img}
-                alt = "Tikka Masala"/>
+                src={props.img.src}
+                alt = {props.img.alt}/>
             </div>
             <div>
                 <a href={props.link}>View Price On Site! </a>

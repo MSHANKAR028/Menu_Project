@@ -7,3 +7,9 @@ How do you use the map() method in React?
 Answer: In React, you can use the map() method to iterate over an array and return
 
 Question 3:
+Critical thinking: Why is map() useful why couldnt we just create a new array manually?
+
+Answer: Well to answer this question, the map() method is useful
+because it means we dont have to think about out data ahead of time
+Instead, we can just use the map() method to transform our data as needed.
+Another reason is that the code is self-sustaining and readable.
